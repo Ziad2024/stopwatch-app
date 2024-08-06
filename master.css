@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background: rgba(0, 0, 0, 0.411);
+    min-height: 100vh;
+    position: relative;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-size: cover;
+   
+}
+.container h1{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.container .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+.container .button button{
+    outline: 0;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.container .button img{
+    width: 40px;
+    margin: 0 ;
+}
+.container .button img:nth-child(2){
+    width: 80px;
+}
